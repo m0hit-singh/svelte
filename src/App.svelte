@@ -42,6 +42,24 @@
     font-family: cursive;
   }
 
+  @media only screen and (max-width:600px) {
+	  main {
+    text-align: center;
+    padding: 1em;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #e0e0e0;
+    height: auto;
+    font-family: cursive;
+  }
+  .chart-container {
+    margin-top: 30px;
+    display: flex;
+    padding: 5px;
+	margin-bottom: 10px;
+  }
+  }
+
   .chart-container {
     margin-top: 30px;
     display: flex;
@@ -52,12 +70,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+	flex-wrap: wrap;
   }
 
   .info-container .info-item {
     display: flex;
     flex-direction: column;
-    flex: 1 1 300px;
+    flex: 1 1 200px;
     margin: 1em;
     box-shadow: 0 0px 10px 1px rgba(0, 0, 0, 0.2);
     align-items: center;

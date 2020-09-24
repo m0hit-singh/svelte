@@ -14,6 +14,12 @@
         display: flex;
     }
 
+@media only screen and (max-width:600px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+}
     .container h1 {
         flex-grow: 1;
     }
